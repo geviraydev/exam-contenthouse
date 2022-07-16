@@ -147,7 +147,7 @@ export function createCompany(company){
 
       reject(new Error('No data'))
     }).then(({ data }) => {
-      const normalizedJson = normalize(data, Schemas.company)
+      const normalizedJson = normalize(data, Schemas.COMPANY)
       dispatch(updateEntities(normalizedJson))
       dispatch(createSuccess())
 
