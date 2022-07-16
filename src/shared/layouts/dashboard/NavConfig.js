@@ -14,6 +14,11 @@ const navConfig = [
     path: '/dashboard/users',
     icon: getIcon('eva:people-fill'),
   },
+  {
+    title: 'companies',
+    path: '/dashboard/companies',
+    icon: getIcon('icomoon-free:office'),
+  },
 ]
 
 export default navConfig

@@ -7,6 +7,7 @@ const UPDATE_ENTITY = 'contenthouse/entity/UPDATE_ENTITY'
 
 const initialState = {
   _updates: {},
+  companies: {},
   users: {},
 }
 
