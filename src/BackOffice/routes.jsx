@@ -7,6 +7,8 @@ import LogoOnlyLayout from '@layouts/LogoOnlyLayout'
 import DashboardApp from '@pages/DashboardApp'
 import NotFound from '@pages/Page404'
 
+import Companies from './packs/Companies'
+import Company from './packs/Company'
 import Users from './packs/Users'
 import User from './packs/User'
 
@@ -20,6 +22,9 @@ export default function Router(){
         { path: 'users', element: <Users /> },
         { path: 'users/new', element: <User isNew /> },
         { path: 'users/:userId', element: <User /> },
+        { path: 'companies', element: <Companies /> },
+        { path: 'companies/new', element: <Company isNew /> },
+        { path: 'companies/:companyId', element: <Company /> },
       ],
     },
     {

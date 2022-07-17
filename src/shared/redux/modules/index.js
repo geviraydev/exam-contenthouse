@@ -1,7 +1,9 @@
+import * as companies from './company'
 import * as users from './user'
 import * as entities from '../entities'
 
 const modules = {
+    companies,
     entities,
     users,
 }
